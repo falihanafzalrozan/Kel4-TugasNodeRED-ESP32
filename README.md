@@ -2,7 +2,7 @@
 
 **Tugas MQTT-Node-RED pada ESP32**, Mata Kuliah Jaringan Sensor dan IoT, Kelompok 4
 
-Sistem ini memantau suhu dan kelembapan di empat ruangan serta mengendalikan dua lampu di setiap ruangan. Setiap ruangan memakai satu ESP32 yang mengirim data dan menerima perintah lampu lewat broker MQTT publik HiveMQ. Node-RED berperan sebagai client yang menampilkan chart suhu, gauge kelembapan, status online/offline, dan 8 saklar lampu pada dashboard web.
+Sistem ini memonitoring suhu dan kelembapan di empat ruangan serta mengendalikan dua lampu di setiap ruangan. Setiap ruangan memakai satu ESP32 yang mengirim data dan menerima perintah lampu lewat broker MQTT publik HiveMQ. Node-RED berperan sebagai client yang menampilkan chart suhu, gauge kelembapan, status online/offline, dan 8 saklar lampu pada dashboard web.
 
 ## Link Video
 
