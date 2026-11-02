@@ -14,10 +14,10 @@ Video presentasi dan video demo alat tersedia di folder Google Drive berikut:
 
 | No | Nama | NRP | Ruangan | Perangkat |
 |:-:|---|---|---|---|
-| 1 | Falihan Afzal Rozan | 2124600065 | Ruang 1, Dashboard Node-RED | Laptop, ESP32 |
-| 2 | Rafi Dwi Yudiansyah P. | 2124600090 | Ruang 2 | ESP32 |
-| 3 | M. Raka Gemilang | 2124600066 | Ruang 3 | ESP32 |
-| 4 | Kalyana Daeva Ali | 2124600074 | Ruang 4 | ESP32 |
+| 1 | Falihan Afzal Rozan | 2124600074 | Ruang 1, Dashboard Node-RED | Laptop, ESP32 |
+| 2 | Rafi Dwi Yudiansyah P. | 2124600090 | Ruang 3 | ESP32 |
+| 3 | M. Raka Gemilang | 2124600066 | Ruang 2 | ESP32 |
+| 4 | Kalyana Daeva Ali | 2124600065 | Ruang 4 | ESP32 |
 
 ## 2. Arsitektur Sistem
 
