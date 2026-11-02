@@ -134,7 +134,7 @@ Client ID ESP32 dibentuk otomatis: `esp32-klp4-ruangN`.
 | T3 | Chart suhu | Chart menampilkan 4 garis `ruang1`–`ruang4` | ✓ | [Gambar](#t3-chart-suhu) |
 | T4 | Sensor berubah | Hanya nilai ruangan yang sensornya ditiup/digenggam yang berubah | ✓ | [Gambar](#t4-sensor-berubah) |
 | T5 | Lampu tepat sasaran | Saklar Lampu 1 ruang2 hanya menyalakan lampu 1 ruang2 | ✓ | [Gambar](#t5-lampu-tepat-sasaran) |
-| T6 | Matikan lampu | Lampu 2 ruang3 mati | ✓ | [Gambar](#t6-matikan-lampu) |
+| T6 | Matikan lampu | Lampu 1 ruang2 mati | ✓ | [Gambar](#t6-matikan-lampu) |
 | T7 | Payload salah | Kirim `ON` ke `lamp1`: tidak ada perubahan, ESP32 tidak error | ✓ | Tidak ada lampu yang menyala. [Gambar](#t7-payload-salah) |
 | T8 | Status online | Keempat ruang berstatus `online` | ✓ | [Gambar](#t8-status-online) |
 | T9 | LWT | Daya ESP32 ruang2 dicabut: status menjadi `offline` dalam ±15–25 s | ✓ | Setelah daya ruang2 dicabut, dashboard ruang2 menjadi offline. [Gambar](#t9-lwt) |
