@@ -56,7 +56,7 @@ Setiap ESP32 mem-publish suhu, kelembapan, dan status ke topic ruangannya sendir
 | LED lampu 1 | GPIO22 | Anoda ke pin, katoda ke GND lewat resistor 220 Ω (semua ruangan) |
 | LED lampu 2 | GPIO23 | Sama seperti lampu 1 (semua ruangan) |
 
-Pin LED berbeda dari saran tugas (GPIO25/26) dan diganti ke GPIO22/23 untuk semua ruangan.
+Pin LED berbeda dari saran tugas (GPIO25/26) dan diganti ke GPIO22/23 untuk seluruh ruangan.
 
 **Foto rangkaian satu ruangan**
 
@@ -186,7 +186,7 @@ Client ID ESP32 dibentuk otomatis: `esp32-klp4-ruangN`.
 
 ## 8. Ruangan yang Disimulasikan
 
-Karena keterbatasan sensor DHT, hanya **ruang 1 dan ruang 2** yang memakai sensor DHT22 sungguhan. **Ruang 3 dan ruang 4** tetap memakai ESP32 sungguhan (lampu, status, dan LWT berfungsi normal), tetapi nilai suhu dan kelembapannya adalah data dummy yang dibuat di ESP32 dengan `SENSOR_DUMMY true`. Nilai dummy berubah perlahan setiap 5 detik dalam rentang 24–36 °C dan 40–90 %, dengan nilai awal berbeda per ruangan agar garis di chart tidak menumpuk. Uji T4 dilakukan pada ruangan dengan sensor sungguhan.
+Karena keterbatasan sensor DHT, hanya **ruang 1 dan ruang 2** yang memakai sensor DHT22 sungguhan. **Ruang 3 dan ruang 4** tetap memakai ESP32 real (lampu, status, dan LWT berfungsi normal), tetapi nilai suhu dan kelembapannya adalah data dummy yang dibuat di ESP32 dengan `SENSOR_DUMMY true`. Nilai dummy berubah perlahan setiap 5 detik dalam rentang 24–36 °C dan 40–90 %, dengan nilai awal berbeda per ruangan agar garis di chart tidak menumpuk. Uji T4 dilakukan pada ruangan dengan sensor sungguhan.
 
 ## 9. Kendala dan Solusi
 
